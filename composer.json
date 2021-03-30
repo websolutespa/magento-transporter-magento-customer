@@ -1,0 +1,33 @@
+{
+  "name": "websolutespa/magento-transporter-magento-customer",
+  "description": "",
+  "require": {
+    "magento/magento-composer-installer": "*"
+  },
+  "type": "magento2-module",
+  "authors": [
+    {
+      "name": "Danilo Argentiero",
+      "email": "argentiero.danilo@gmail.com",
+      "homepage": "https://www.linkedin.com/in/daniloargentiero/",
+      "role": "Software Architect"
+    },
+    {
+      "name": "Riccardo Ugolini",
+      "email": "riccardo.ugolini@gmail.com",
+      "homepage": "https://www.linkedin.com/in/riccardougolini/",
+      "role": "Software Architect"
+    }
+  ],
+  "license": [
+    "MIT"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Websolute\\TransporterMagentoCustomer\\": ""
+    }
+  }
+}
